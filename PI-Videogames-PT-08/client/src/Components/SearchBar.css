@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+  padding-top: 45px;
+  padding-right: 40px;
+}
+
+.search {
+  font-size: 25px;
+  font-family: "Gruppo";
+  font-weight: bolder;
+  border-radius: 12px;
+  line-height: 1.5;
+  padding: 5px;
+  transition: box-shadow 100ms ease-in, border 100ms ease-in,
+    background-color 100ms ease-in;
+  border: 2px solid #000000;
+  color: rgb(14, 14, 16);
+  background: #dee1e2;
+  display: block;
+  height: 20px;
+  width: 300px;
+}
+
+.search:focus {
+  border-color: #9147ff;
+}
+.search:hover {
+  border-color: #9147ff;
+  border-radius: 12px;
+}
+
+.buttonSrc {
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Gruppo";
+  font-weight: bolder;
+  font-size: 18px;
+  width: 70px;
+  height: 30.9px;
+  border-style: unset;
+}

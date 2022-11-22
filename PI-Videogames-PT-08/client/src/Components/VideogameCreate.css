@@ -1,0 +1,80 @@
+.mainscreen {
+  height: 100vh;
+}
+
+.titlePost {
+  font-family: "Squada One";
+  font-weight: 200;
+  font-size: 120px;
+  margin-top: 150px;
+}
+
+.rightsidePost {
+  background-color: #ffffff;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.labelCardPost {
+  font-family: "Squada One";
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin: 0.8rem 0;
+}
+
+.inputbox {
+  color: #030303;
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #615a5a;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.selected {
+  font-family: "Gruppo";
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 0.8rem 0;
+  word-spacing: 20px;
+}
+
+.button {
+  background: linear-gradient(135deg, #753370 0%, #298096 100%);
+  padding: 15px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 40px;
+  letter-spacing: 0.11rem;
+  outline: none;
+}
+
+.backButton {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  border-style: none;
+  cursor: pointer;
+  background-color: #9147ff;;
+  font-family: "Gruppo";
+  font-size: 1.5rem;
+  font-weight: bolder;
+  height: 45px;
+  width: 85px;
+}
+
+.button:hover {
+  transform: scale(1.05) translateY(-3px);
+  box-shadow: 3px 3px 6px #38373785;
+}
